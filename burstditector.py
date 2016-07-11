@@ -78,7 +78,7 @@ class BurstDitector(object):
         if abs(a) > 4.58:
             return False
         else:
-            print True
+            return True
 
 
 if __name__ == '__main__':
